@@ -7,6 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <name>bookmanager</name>
 
+
     <properties>
         <spring.version>4.1.1.RELEASE</spring.version>
     </properties>
@@ -68,18 +69,17 @@
             <artifactId>hibernate-core</artifactId>
             <version>3.3.2.GA</version>
         </dependency>
-
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-annotations</artifactId>
             <version>3.3.1.GA</version>
         </dependency>
-
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-commons-annotations</artifactId>
             <version>3.3.0.ga</version>
         </dependency>
+
 
         <dependency>
             <groupId>org.springframework</groupId>
@@ -102,8 +102,30 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.36</version>
+            <version>5.1.34</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-taglibs</artifactId>
+            <version>3.2.5.RELEASE</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+            <version>3.2.5.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+            <version>3.2.5.RELEASE</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
